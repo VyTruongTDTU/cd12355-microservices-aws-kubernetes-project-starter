@@ -16,4 +16,6 @@ RUN pip install -r requirements.txt
 
 COPY ./analytics .
 
+RUN echo "Application start running !!!"
+
 CMD python app.py

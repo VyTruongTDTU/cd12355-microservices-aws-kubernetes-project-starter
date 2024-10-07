@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: co-working-configmap
+data:
+  # property-like keys; each key maps to a simple value
+  DB_USERNAME: "myuser"
+  DB_PORT: "5432"
+  DB_NAME: "mydatabase"
+  DB_HOST: "postgresql-service"
